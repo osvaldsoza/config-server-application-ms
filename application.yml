@@ -1,0 +1,11 @@
+#spring actuator
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - '*'
+
+greeting-service:
+  greeting: "Hello"
+  default-value: "World"
